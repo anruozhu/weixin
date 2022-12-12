@@ -22,10 +22,10 @@ import java.util.List;
  *               -- 2022/10/25
  */
 public class AllConfig {
-    public static final String VxAppId = "微信的APPID";
-    public static final String VxAppSecret = "微信的密钥";
-    public static final String WeatherKey = "高德地图key";
-    public static final String WeatherKey_HeFeng = "和风天气KEY";
+    public static final String VxAppId = "wxcdbdae3b82a583c0";
+    public static final String VxAppSecret = "1b2673f3ccd03fc414e8dab526d0deef";
+    public static final String WeatherKey = "6881b2f913c33428f82b98af31e39588";
+    public static final String WeatherKey_HeFeng = "e939363c74cc4c57a079c5163412d88e";
 
     //下列所有填写的  true 为开启， false 为不开启 ，#XXXXXX是颜色16进制HEX码（不知道颜色16进制HEX码可以百度）
     //系统开关
@@ -77,31 +77,40 @@ public class AllConfig {
         //  注意：每个用户信息的最后一项不需要加逗号！！！
         //new BirthDay()里面代表[年]、[月]、[日]、[是否是农历(true为农历、false为公历)]、[是否统计天数(true为统计，false为倒计时)]、[倒计时到0天提示信息(如果类型为统计可以不填)]
         userList.add(getUser(
-                "这个人的微信号", //扫码关注你的测试号以后，测试平台会出现TA的微信号
-                "模板ID", //要给这个人发送的模板ID
-                "pt", //咋称呼这个人
-                "江苏省南京市玄武区", //这个人的详细地址
-                "南京", //这个人在的城市
-                new BirthDay(1999,2,15,true,false,"pt生日快乐！！"),
-                new BirthDay(1999,8,11,false,false,"生日快乐哦~~"),
-                new BirthDay(2020,7,8,true,true),
-                new BirthDay(2020,7,8,true,false,"周年快乐！！！")
+                "o_fxQ58JxflbrALyyHJJh_NYcXYk", //扫码关注你的测试号以后，测试平台会出现TA的微信号
+                "4xGqxvHzcgam21JyGvC2erYaSZb2OGoDkCpw1BVioRY", //要给这个人发送的模板ID
+                "老淦", //咋称呼这个人
+                "贵州省铜仁市思南县", //这个人的详细地址
+                "都匀", //这个人在的城市
+                new BirthDay(2002,3,7,true,false,"老淦生日快乐！！")
+               // new BirthDay(1999,8,11,false,false,"生日快乐哦~~"),
+                //new BirthDay(2020,7,8,true,true),
+                //new BirthDay(2020,7,8,true,false,"周年快乐！！！")
         ));
 
         userList.add(getUser(
-                "这个人扫码后的微信号",//扫码关注你的测试号以后，测试平台会出现TA的微信号
-                "微信消息模板ID",//要给这个人发送的模板ID
-                "这个人的称呼",//咋称呼这个人
-                "江苏省南京市玄武区",//这个人的详细地址
-                "南京",//这个人在的城市
-                new BirthDay(1999,8,11,false,false,"生日快乐哦~~"),
-                new BirthDay(1999,2,15,true,false,"pt生日快乐！！"),
-                new BirthDay(2020,7,8,true,true),
-                new BirthDay(2020,7,8,true,false,"周年快乐！！！")
+                "o_fxQ51cGVy7Y77fAcH571H03Fmk",//扫码关注你的测试号以后，测试平台会出现TA的微信号
+                "G9SKYZ5eGGTLg7enDQFgD6k7OdnF4o0xEuN0k9hjaSM",//要给这个人发送的模板ID
+                "老婆",//咋称呼这个人
+                "贵州省铜仁市思南县",//这个人的详细地址
+                "乌当区",//这个人在的城市
+                new BirthDay(2003,6,11,true,false,"宇迪生日快乐哦~~"),
+                new BirthDay(2002,3,9,true,false,"勇竹生日快乐！！"),
+                new BirthDay(2019,1,19,false,false,"周年快乐！！！"),
+                new BirthDay(2019,1,19,false,true)
         ));
-
-
-
+   userList.add(getUser(
+                "o_fxQ5wB3U62bet7FyQhuyMdKj38",//扫码关注你的测试号以后，测试平台会出现TA的微信号
+                "G9SKYZ5eGGTLg7enDQFgD6k7OdnF4o0xEuN0k9hjaSM",//要给这个人发送的模板ID
+                "老婆",//咋称呼这个人
+                "贵州省铜仁市思南县",//这个人的详细地址
+                "乌当区",//这个人在的城市
+                new BirthDay(2003,6,11,true,false,"宇迪生日快乐哦~~"),
+                new BirthDay(2002,3,9,true,false,"勇竹生日快乐！！"),
+                new BirthDay(2019,1,19,false,false,"周年快乐！！！"),
+                new BirthDay(2019,1,19,false,true)
+               
+        ));
     }
 
     public static final List<User> userList = new ArrayList<>();
