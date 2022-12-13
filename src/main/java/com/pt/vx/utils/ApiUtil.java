@@ -23,7 +23,7 @@ public class ApiUtil {
 
     private static final String dongman = "http://fuyhi.top/api/dmyiyan/api.php?type=text";//一句动漫台词
 
-    private static final String tgrj ="http://api.gt5.cc/api/dog";//舔狗日记
+   // private static final String tgrj ="http://api.gt5.cc/api/dog";//舔狗日记
     private static final String tgrj2 ="https://api.caonm.net/api/yulu/tgrj.php";
     private static final String WorldRead60sApi="http://api.gt5.cc/api/60s?type=json";//世界新闻
     private static final String randomRead ="http://api.gt5.cc/api/yiy?type=JSON";//随机一句
@@ -150,11 +150,11 @@ public class ApiUtil {
      *
      * @return 舔狗日记
      */
-    public static String getTgrj(){
-        String result = HttpUtil.get(tgrj);
-        logger.info(String.format("获取舔狗日记 %s", result));
-        return result;
-    }
+//     public static String getTgrj(){
+//         String result = HttpUtil.get(tgrj);
+//         logger.info(String.format("获取舔狗日记 %s", result));
+//         return result;
+//     }
 
     /**
      *
