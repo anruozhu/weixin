@@ -181,34 +181,32 @@ public class MessageService {
     }
     private void setRandomInfo(HashMap<String, DataInfo> map,User user){
        String randomInfo;
-       int i = random.nextInt(12);
+       int i = random.nextInt(11);
        if(i == 0 && AllConfig.open_history_today.isOpen()){
            randomInfo = ApiUtil.getHistoryToday(3);
        }else if(i == 1 && AllConfig.open_qinghua.isOpen()){
            randomInfo = ApiUtil.getQingHua();
        }else if(i == 2 && AllConfig.open_dongman.isOpen()){
            randomInfo = ApiUtil.getDongman();
-       }else if(i == 3 && AllConfig.open_tiangou.isOpen()){
-           randomInfo = ApiUtil.getTgrj();
-       }else if(i == 4 && AllConfig.open_world_read.isOpen()){
+       }else  if(i == 3 && AllConfig.open_world_read.isOpen()){
            randomInfo = ApiUtil.getWorldRead60s();
-       }else if(i == 5 && AllConfig.open_random_read.isOpen()){
+       }else if(i == 4 && AllConfig.open_random_read.isOpen()){
            randomInfo = ApiUtil.getRandomRead();
-       }else if(i == 6 && AllConfig.open_wozairenjian.isOpen()){
+       }else if(i == 5 && AllConfig.open_wozairenjian.isOpen()){
            randomInfo = ApiUtil.getWozairenjian();
-       }else if(i == 7 && AllConfig.open_poetry.isOpen()){
+       }else if(i == 6 && AllConfig.open_poetry.isOpen()){
            randomInfo = ApiUtil.getPoetryApi();
-       }else if(i == 8 && AllConfig.open_english.isOpen()){
+       }else if(i == 7 && AllConfig.open_english.isOpen()){
            randomInfo = ApiUtil.getEnglish();
-       }else if(i == 9 && AllConfig.open_miyu.isOpen()){
+       }else if(i == 8 && AllConfig.open_miyu.isOpen()){
            randomInfo = ApiUtil.getMiYu();
-       }else if(i == 10 && AllConfig.open_horoscope.isOpen()){
+       }else if(i == 9 && AllConfig.open_horoscope.isOpen()){
            if(ArrayUtil.isNotEmpty(user.getBirthDays())){
                randomInfo = ApiUtil.getHoroscopeRead2(user.getBirthDays()[0]);
            }else {
                return;
            }
-       }else if(i == 11 && AllConfig.open_xinGuan_info.isOpen() ){
+       }else if(i == 10 && AllConfig.open_xinGuan_info.isOpen() ){
            if(StringUtils.isNotBlank(user.getCity())){
                randomInfo = ApiUtil.getXgInfo(user.getCity());
            }else {
@@ -237,10 +235,10 @@ public class MessageService {
         setMap(map, KeyConfig.KEY_WORLD_READ, AllConfig.open_world_read, ApiUtil::getWorldRead60s);
     }
 
-    private void setTiangou(HashMap<String, DataInfo> map) {
+//     private void setTiangou(HashMap<String, DataInfo> map) {
 
-        setMap(map, KeyConfig.KEY_TIAN_GOU, AllConfig.open_tiangou, ApiUtil::getTgrj);
-    }
+//         setMap(map, KeyConfig.KEY_TIAN_GOU, AllConfig.open_tiangou, ApiUtil::getTgrj);
+//     }
 
     private void setQinghua(HashMap<String, DataInfo> map) {
 
