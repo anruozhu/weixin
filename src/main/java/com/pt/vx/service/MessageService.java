@@ -76,7 +76,7 @@ public class MessageService {
                         setHistoryToday,
                         setQinghua,
                         setDongman,
-                        setTiangou,
+                        //setTiangou,
                         setWorldRead,
                         setRandomRead,
                         setWoZaiRenJian,
