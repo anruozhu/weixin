@@ -89,7 +89,7 @@ public class AllConfig {
         ));
  userList.add(getUser(
                 "o_fxQ5w6uRLofDqHDtAiF_J52jDw", //扫码关注你的测试号以后，测试平台会出现TA的微信号
-                "4xGqxvHzcgam21JyGvC2erYaSZb2OGoDkCpw1BVioRY", //要给这个人发送的模板ID
+                "7SHhKfpBkgLn-aAanKznetmYullEkco01eC2poOJJw0", //要给这个人发送的模板ID
                 "阿ber", //咋称呼这个人
                 "贵州省铜仁市思南县", //这个人的详细地址
                 "花溪区", //这个人在的城市
