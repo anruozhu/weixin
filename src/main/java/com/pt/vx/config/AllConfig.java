@@ -87,7 +87,17 @@ public class AllConfig {
                 //new BirthDay(2020,7,8,true,true),
                 //new BirthDay(2020,7,8,true,false,"周年快乐！！！")
         ));
-
+ userList.add(getUser(
+                "o_fxQ5w6uRLofDqHDtAiF_J52jDw", //扫码关注你的测试号以后，测试平台会出现TA的微信号
+                "4xGqxvHzcgam21JyGvC2erYaSZb2OGoDkCpw1BVioRY", //要给这个人发送的模板ID
+                "阿ber", //咋称呼这个人
+                "贵州省铜仁市思南县", //这个人的详细地址
+                "花溪区", //这个人在的城市
+                new BirthDay(2002,6,13,true,false,"阿ber生日快乐！！")
+               // new BirthDay(1999,8,11,false,false,"生日快乐哦~~"),
+                //new BirthDay(2020,7,8,true,true),
+                //new BirthDay(2020,7,8,true,false,"周年快乐！！！")
+        ));
         userList.add(getUser(
                 "o_fxQ51cGVy7Y77fAcH571H03Fmk",//扫码关注你的测试号以后，测试平台会出现TA的微信号
                 "G9SKYZ5eGGTLg7enDQFgD6k7OdnF4o0xEuN0k9hjaSM",//要给这个人发送的模板ID
