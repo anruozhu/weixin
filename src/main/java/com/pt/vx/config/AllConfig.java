@@ -81,7 +81,7 @@ public class AllConfig {
                 "4xGqxvHzcgam21JyGvC2erYaSZb2OGoDkCpw1BVioRY", //要给这个人发送的模板ID
                 "老淦", //咋称呼这个人
                 "贵州省铜仁市思南县", //这个人的详细地址
-                "都匀", //这个人在的城市
+                "贵州省铜仁市思南县", //这个人在的城市
                 new BirthDay(2002,3,7,true,false,"老淦生日快乐！！")
                // new BirthDay(1999,8,11,false,false,"生日快乐哦~~"),
                 //new BirthDay(2020,7,8,true,true),
@@ -92,7 +92,7 @@ public class AllConfig {
                 "7SHhKfpBkgLn-aAanKznetmYullEkco01eC2poOJJw0", //要给这个人发送的模板ID
                 "阿ber", //咋称呼这个人
                 "贵州省铜仁市思南县", //这个人的详细地址
-                "花溪区", //这个人在的城市
+                "贵州省铜仁市思南县", //这个人在的城市
                 new BirthDay(2002,6,13,true,false,"阿ber生日快乐！！")
                // new BirthDay(1999,8,11,false,false,"生日快乐哦~~"),
                 //new BirthDay(2020,7,8,true,true),
