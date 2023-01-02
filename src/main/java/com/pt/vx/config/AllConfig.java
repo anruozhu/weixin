@@ -120,17 +120,6 @@ public class AllConfig {
                 new BirthDay(2019,1,19,false,false,"周年快乐！！！"),
                 new BirthDay(2019,1,19,false,true)
                
-        )); 
-        userList.add(getUser(
-                "o_fxQ51cGVy7Y77fAcH571H03Fmk",//扫码关注你的测试号以后，测试平台会出现TA的微信号
-                "s_XVo48oFcjX5a0peG-mGKSob7TALnUeB5U6yxBzpH4",//要给这个人发送的模板ID
-                "乖乖",//咋称呼这个人
-                "贵州省铜仁市思南县",//这个人的详细地址
-                "乌当区",//这个人在的城市
-                new BirthDay(2003,6,11,true,false,"朱燕生日快乐哦~~"),
-                new BirthDay(2002,3,9,true,false,"勇竹生日快乐！！"),
-                new BirthDay(2023,1,1,false,false,"周年快乐！！！"),
-                new BirthDay(2023,1,1,false,true)
         ));
     }
 
